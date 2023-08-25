@@ -14,20 +14,20 @@ function App() {
         </div>
         <div className="w-[85%] ml-[350px] sm:w-full sm:ml-0">
           <div className="bg-black w-full py-2  md:collapse">
-            <Link to="/taiyo/">
+            <Link to="/">
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                 Contacts
               </button>
             </Link>
-            <Link to="/taiyo/charts">
+            <Link to="/charts">
               <button className="bg-blue-500 ml-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                 Charts
               </button>
             </Link>
           </div>
           <Routes>
-            <Route path="/taiyo/" element={<ContactPage />} />
-            <Route path="/taiyo/charts" element={<Charts />} />
+            <Route path="/" element={<ContactPage />} />
+            <Route path="/charts" element={<Charts />} />
           </Routes>
         </div>
       </Router>
