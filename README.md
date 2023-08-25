@@ -43,4 +43,4 @@ This React application provides a COVID-19 dashboard that displays historical CO
 
    ```shell
    git clone https://github.com/your-username/taiyo.git
-   cd covid-contact-manager
+   cd taiyo
