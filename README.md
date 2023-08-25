@@ -1,6 +1,6 @@
 # 🦠 COVID-19 Dashboard & Contact Manager
 
-
+### Live Link : https://prathamsakhare.github.io/taiyo/
 
 > 📊 Visualize historical COVID-19 data and manage your contacts with ease!
 
