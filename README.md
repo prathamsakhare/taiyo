@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# 🦠 COVID-19 Dashboard & Contact Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+> 📊 Visualize historical COVID-19 data and manage your contacts with ease!
 
-### `npm start`
+[![GitHub license](https://img.shields.io/github/license/prathamsakhare/taiyo)](https://prathamsakhare.github.io/taiyo/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/prathamsakhare/taiyo)](https://prathamsakhare.github.io/taiyo/issues)
+[![GitHub stars](https://img.shields.io/github/stars/prathamsakhare/taiyo)](https://prathamsakhare.github.io/taiyo/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/prathamsakhare/taiyo)](https://prathamsakhare.github.io/taiyo//network)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This React application provides a COVID-19 dashboard that displays historical COVID-19 data for both the world and India. Additionally, it offers contact management features where you can save and delete contacts. The application is built using React, Tailwind CSS, and leverages various APIs for data retrieval.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+### 📈 COVID-19 Dashboard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Worldwide Data**: Visualize historical COVID-19 data for the entire world, including cases, deaths, and recoveries.
 
-### `npm run build`
+- **India Data**: View historical COVID-19 data specific to India, including cases, deaths, and recoveries.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Interactive Charts**: The dashboard utilizes Recharts to display data using interactive line charts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 👥 Contact Management
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Save Contacts**: Easily add and save contact information, including names, phone numbers, and emails.
 
-### `npm run eject`
+- **Delete Contacts**: Remove unwanted contacts from your list.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠️ Technologies Used
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React**: The front-end framework for building the user interface.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Tailwind CSS**: A utility-first CSS framework for styling the application.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **Recharts**: A charting library for creating interactive charts.
 
-## Learn More
+- **APIs**: The application utilizes external APIs to fetch COVID-19 historical data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🏁 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Clone the repository:**
+
+   ```shell
+   git clone https://github.com/your-username/taiyo.git
+   cd covid-contact-manager
