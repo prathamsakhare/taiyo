@@ -37,10 +37,3 @@ This React application provides a COVID-19 dashboard that displays historical CO
 
 - **APIs**: The application utilizes external APIs to fetch COVID-19 historical data.
 
-## 🏁 Getting Started
-
-1. **Clone the repository:**
-
-   ```shell
-   git clone https://github.com/your-username/taiyo.git
-   cd taiyo
